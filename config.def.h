@@ -11,6 +11,11 @@ static char *fonts[] = {
 };
 static int fonts_current = 0;
 
+/* disable bold, italic and roman fonts globally */
+int disablebold = 1;
+int disableitalic = 1;
+int disableroman = 0;
+
 static int borderpx = 2;
 
 /*
